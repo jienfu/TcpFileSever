@@ -1,0 +1,12 @@
+# 忽略 Qt 編譯建置資料夾與執行檔
+build/
+*.exe
+*.o
+*.obj
+moc_*
+ui_*
+qrc_*
+Makefile*
+
+# 忽略本機個人環境設定檔
+*.pro.user*
